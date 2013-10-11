@@ -1,0 +1,18 @@
+---
+layout: post
+title: gotchas
+category: bugs
+---
+Here are some of the gotchas I've discovered.
+
+## Markdown (Redcarpet)
+
+* it's not trivial to add a class to a table
+
+## Liquid
+
+* no easy way to sort by a property of members in an array (like title, or date)a
+
+## Jekyll
+
+* it would be nice to have a category page automatically created

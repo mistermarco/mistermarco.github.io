@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: code 
 title: "Generating a random password using a Perl script"
 tags: perl
 published: yes

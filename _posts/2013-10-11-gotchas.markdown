@@ -1,9 +1,0 @@
----
-layout: post
-title: gotchas
----
-Here are some of the gotchas I've discovered.
-
-## Markdown (Redcarpet)
-
-* it's not trivial to add a class to a table
