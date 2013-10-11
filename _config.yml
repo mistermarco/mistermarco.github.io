@@ -19,3 +19,6 @@ pygments: true
 
 # Category Title Prefix
 category_title_prefix: ''
+
+# Tag Title Prefix
+tag_title_prefix: 'Posts tagged with '
