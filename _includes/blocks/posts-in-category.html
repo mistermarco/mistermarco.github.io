@@ -1,3 +1,6 @@
+{% comment %}
+This block lists all the rest of the posts in a page's first category.
+{% endcomment %}
 {% assign first_category = page.categories.first %}
 <h3>Posts about {{ first_category }}</h3>
 {% for category in site.categories %}
