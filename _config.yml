@@ -13,4 +13,4 @@ redcarpet:
 permalink: pretty
 
 # Bootstrap Theme
-bootstrap-theme: readable
+bootstrap_theme: cosmo 
