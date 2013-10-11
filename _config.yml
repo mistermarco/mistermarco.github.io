@@ -4,5 +4,9 @@ name: marco.io
 # use redcarpet for markdown
 markdown: redcarpet
 
+# redcarpet extensions
+redcarpet:
+  extensions: ["tables"]
+
 # permalink structure
 permalink: /:categories/:year/:month/:day/:title
