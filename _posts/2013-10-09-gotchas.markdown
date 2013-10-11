@@ -1,7 +1,8 @@
 ---
-layout: post
 title: gotchas
+layout: post
 category: bugs
+published: yes
 ---
 Here are some of the gotchas I've discovered.
 

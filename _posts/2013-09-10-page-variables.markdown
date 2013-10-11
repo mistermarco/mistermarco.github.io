@@ -2,6 +2,7 @@
 title: Jekyll Page Variables
 layout: post
 category: tips
+published: yes
 ---
 ## Trying out all variables.
 

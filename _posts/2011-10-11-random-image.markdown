@@ -2,6 +2,7 @@
 title: Random Image
 layout: post 
 category: code
+published: yes
 ---
 
 This code displays an image at random. 

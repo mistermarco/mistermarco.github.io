@@ -1,6 +1,6 @@
 ---
-layout: post
 title: How to add a table class to tables
+layout: post
 category: code
 tags: javascript
 published: true

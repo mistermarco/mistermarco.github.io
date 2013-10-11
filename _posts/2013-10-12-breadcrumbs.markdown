@@ -2,6 +2,7 @@
 title: Breadcrumbs in Jekyll
 layout: post
 category: code
+published: yes
 ---
 
 Getting breadcrumbs back to a category page is pretty easy in Jekyll. If you have a way to create the category pages, that is (using a plugin).
