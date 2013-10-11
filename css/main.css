@@ -3,3 +3,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+img {
+  max-width: 100%;
+}
+
+footer {
+	padding-top: 20px;
+	background-color: #333333;
+	color: #ffffff;
+  height: 100px;
+}
