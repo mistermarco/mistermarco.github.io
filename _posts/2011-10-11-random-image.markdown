@@ -2,6 +2,9 @@
 title: Random Image
 layout: post 
 category: code
+tags:
+  - images
+  - random
 published: yes
 ---
 
