@@ -1,0 +1,10 @@
+---
+published: true
+title: Using prose.io
+category: tips
+layout: post
+---
+
+## A New Post using prose.io
+
+This file was created using prose.io.
