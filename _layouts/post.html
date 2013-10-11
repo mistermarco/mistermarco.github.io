@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/categories/{{ page.categories.first }}">{{ page.categories.first }}</a></li>
+  <li>{{ page.title }}</li>
+</ol>
+
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
