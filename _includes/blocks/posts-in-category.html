@@ -12,12 +12,14 @@ This block lists all the rest of the posts in a page's first category.
 {% if first_category_posts.size > 1 %}
 
 <h3>Other posts about {{ first_category_name }}</h3>
-<ul>
+<div class="list-group">
   {% for post in first_category_posts %}
     {% if post.url != page.url %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <a class="list-group-item" href="{{ post.url }}">{{ post.title }}</a>
+    {% else %}
+      <a class="list-group-item active" href="{{ post.url }}">{{ post.title }}</a>
     {% endif %}
   {% endfor %}
-</ul>
+</div>
 
 {% endif %}
