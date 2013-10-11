@@ -9,7 +9,8 @@ redcarpet:
   extensions: ["tables"]
 
 # permalink structure
-permalink: /:categories/:year/:month/:day/:title
+# same as /:categories/:year/:month/:day/:title
+permalink: pretty
 
 # Bootstrap Theme
 bootstrap-theme: readable
