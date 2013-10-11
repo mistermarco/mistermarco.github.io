@@ -1,16 +1,23 @@
 {% comment %}
 This block lists all the rest of the posts in a page's first category.
 {% endcomment %}
-{% assign first_category = page.categories.first %}
-<h3>Posts about {{ first_category }}</h3>
+{% assign first_category_name = page.categories.first %}
+
 {% for category in site.categories %}
-  {% if category.first == first_category %}
-    <ul>
-      {% for post in category[1] %}
-        {% if post.url != page.url %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  {% if category.first == first_category_name %}
+    {% assign first_category_posts  = category[1] %}
   {% endif %}
 {% endfor %}
+
+{% if first_category_posts.size > 1 %}
+
+<h3>Other posts about {{ first_category_name }}</h3>
+<ul>
+  {% for post in first_category_posts %}
+    {% if post.url != page.url %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% endif %}
