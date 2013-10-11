@@ -13,4 +13,9 @@ redcarpet:
 permalink: pretty
 
 # Bootstrap Theme
-bootstrap_theme: cosmo 
+bootstrap_theme: cosmo
+
+pygments: true
+
+# Category Title Prefix
+category_title_prefix: ''
