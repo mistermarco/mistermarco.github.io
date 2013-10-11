@@ -1,6 +1,6 @@
 ---
 title: Random Image
-layout: code
+layout: post 
 category: code
 ---
 

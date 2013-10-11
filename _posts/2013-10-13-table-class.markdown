@@ -1,5 +1,5 @@
 ---
-layout: code
+layout: post
 title: How to add a table class to tables
 category: code
 tags: javascript
