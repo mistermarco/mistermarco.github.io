@@ -10,3 +10,6 @@ redcarpet:
 
 # permalink structure
 permalink: /:categories/:year/:month/:day/:title
+
+# Bootstrap Theme
+bootstrap-theme: readable
