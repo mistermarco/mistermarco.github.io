@@ -1,6 +1,6 @@
 ---
 title: Breadcrumbs in Jekyll
-layout: code
+layout: post
 category: code
 ---
 
