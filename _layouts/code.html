@@ -4,11 +4,13 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div class="row">
+<div class="col-md-8">
 {{ content }}
 </div>
 
-<h3>Other posts filed under code</h3>
+<div class="col-md-4">
+<h3>Posts about code</h3>
 <ul>
 {% for post in site.categories.code %}
   {% if post.url != page.url %}
@@ -16,3 +18,5 @@ layout: default
   {% endif %}
 {% endfor %}
 </ul>
+</div>
+</div>
